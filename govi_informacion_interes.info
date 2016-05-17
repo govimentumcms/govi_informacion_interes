@@ -1,5 +1,5 @@
 name = Govi Información de Interes
-description = Característica funcional que implementa la información de interés de la entidad 
+description = Característica funcional que implementa la información de interés de la entidad
 core = 7.x
 package = Govimentum
 version = 7.x-1.0-beta1

@@ -44,7 +44,7 @@ calendario/month/*
   $menu_links['menu-menu-informacion-interes_convocatorias:transparencia/informacion-interes/convocatorias'] = array(
     'menu_name' => 'menu-menu-informacion-interes',
     'link_path' => 'transparencia/informacion-interes/convocatorias',
-    'router_path' => 'transparencia/informacion-interes/convocatorias',
+    'router_path' => 'transparencia',
     'link_title' => 'Convocatorias',
     'options' => array(
       'cami' => array(
@@ -76,7 +76,7 @@ transparencia/informacion-interes/convocatoria
   $menu_links['menu-menu-informacion-interes_estudios-investigaciones-y-oras-publicaciones:transparencia/informacion-interes/publicaciones'] = array(
     'menu_name' => 'menu-menu-informacion-interes',
     'link_path' => 'transparencia/informacion-interes/publicaciones',
-    'router_path' => 'transparencia/informacion-interes/publicaciones',
+    'router_path' => 'transparencia',
     'link_title' => 'Estudios, investigaciones y oras publicaciones',
     'options' => array(
       'cami' => array(
@@ -109,7 +109,7 @@ transparencia/informacion-interes/publicacion/otras-publicaciones/*
   $menu_links['menu-menu-informacion-interes_glosario:transparencia/informacion-interes/glosario'] = array(
     'menu_name' => 'menu-menu-informacion-interes',
     'link_path' => 'transparencia/informacion-interes/glosario',
-    'router_path' => 'transparencia/informacion-interes/glosario',
+    'router_path' => 'transparencia',
     'link_title' => 'Glosario',
     'options' => array(
       'cami' => array(
@@ -138,7 +138,7 @@ transparencia/informacion-interes/glosario/*',
   $menu_links['menu-menu-informacion-interes_informacin-adicional:transparencia/informacion-interes/informacion-adicional'] = array(
     'menu_name' => 'menu-menu-informacion-interes',
     'link_path' => 'transparencia/informacion-interes/informacion-adicional',
-    'router_path' => 'transparencia/informacion-interes/informacion-adicional',
+    'router_path' => 'transparencia',
     'link_title' => 'Información adicional',
     'options' => array(
       'cami' => array(
@@ -200,7 +200,7 @@ noticias/*',
   $menu_links['menu-menu-informacion-interes_preguntas-frecuentes:transparencia/informacion-interes/faqs'] = array(
     'menu_name' => 'menu-menu-informacion-interes',
     'link_path' => 'transparencia/informacion-interes/faqs',
-    'router_path' => 'transparencia/informacion-interes/faqs',
+    'router_path' => 'transparencia',
     'link_title' => 'Preguntas frecuentes',
     'options' => array(
       'cami' => array(
