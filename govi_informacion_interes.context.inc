@@ -30,6 +30,8 @@ function govi_informacion_interes_context_default_contexts() {
     ),
     'path' => array(
       'values' => array(
+        'transparencia/informacion-interes' => 'transparencia/informacion-interes',
+        'transparencia/informacion-interes/*' => 'transparencia/informacion-interes/*',
         'transparencia/informacion-interes/convocatoria' => 'transparencia/informacion-interes/convocatoria',
         'transparencia/informacion-interes/convocatoria/*' => 'transparencia/informacion-interes/convocatoria/*',
         'transparencia/informacion-interes/convocatorias' => 'transparencia/informacion-interes/convocatorias',

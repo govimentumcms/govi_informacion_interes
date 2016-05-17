@@ -84,7 +84,7 @@ transparencia/informacion-interes/convocatoria
 transparencia/informacion-interes/publicaciones/*
 transparencia/informacion-interes/publicacion/estudios/*
 transparencia/informacion-interes/publicacion/investigaciones/*
- transparencia/informacion-interes/publicacion/otras-publicaciones/*
+transparencia/informacion-interes/publicacion/otras-publicaciones/*
 ',
       ),
       'attributes' => array(),
@@ -165,35 +165,6 @@ transparencia/informacion-interes/publicacion/información-adicional/*',
     'weight' => -43,
     'customized' => 1,
   );
-  // Exported menu link: menu-menu-informacion-interes_informacin-para-nios-nias-y-adolecentes:node/135.
-  $menu_links['menu-menu-informacion-interes_informacin-para-nios-nias-y-adolecentes:node/135'] = array(
-    'menu_name' => 'menu-menu-informacion-interes',
-    'link_path' => 'node/135',
-    'router_path' => 'node/%',
-    'link_title' => 'Información para niños, niñas y adolecentes',
-    'options' => array(
-      'cami' => array(
-        'pages' => 'transparencia/informacion-interes/informacion-ninos-ninas-adolecentes
-transparencia/informacion-interes/informacion-ninos-ninas-adolecentes/*',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'menu-menu-informacion-interes_informacin-para-nios-nias-y-adolecentes:node/135',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -44,
-    'customized' => 1,
-  );
   // Exported menu link: menu-menu-informacion-interes_noticias:noticias.
   $menu_links['menu-menu-informacion-interes_noticias:noticias'] = array(
     'menu_name' => 'menu-menu-informacion-interes',
@@ -262,7 +233,6 @@ transparencia/informacion-interes/faqs/*',
   t('Estudios, investigaciones y oras publicaciones');
   t('Glosario');
   t('Información adicional');
-  t('Información para niños, niñas y adolecentes');
   t('Noticias');
   t('Preguntas frecuentes');
 
