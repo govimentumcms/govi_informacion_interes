@@ -219,7 +219,7 @@ Integer a erat.'),
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Documentos';
+  $view->human_name = '2. Información de interés';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -638,14 +638,14 @@ Integer a erat.'),
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'FAQS';
+  $view->human_name = '2.4 Preguntas y respuestas frecuentes';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Preguntas Frecuentes';
+  $handler->display->display_options['title'] = '2.4 Preguntas y respuestas frecuentes';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -733,8 +733,8 @@ Integer a erat.'),
     'preguntas_frecuentes' => 'preguntas_frecuentes',
   );
 
-  /* Display: Preguntas Frecuentes */
-  $handler = $view->new_display('page', 'Preguntas Frecuentes', 'page');
+  /* Display: 2.4 Preguntas y respuestas frecuentes */
+  $handler = $view->new_display('page', '2.4 Preguntas y respuestas frecuentes', 'page');
   $handler->display->display_options['path'] = 'transparencia/informacion-interes/faqs';
   $translatables['faqs'] = array(
     t('Master'),
@@ -768,14 +768,14 @@ Integer a erat.'),
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Glosario';
+  $view->human_name = '2.5 Glosario';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Glosario';
+  $handler->display->display_options['title'] = '2.5 Glosario';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -867,8 +867,8 @@ Integer a erat.'),
     'glosario' => 'glosario',
   );
 
-  /* Display: Glosario */
-  $handler = $view->new_display('page', 'Glosario', 'page');
+  /* Display: 2.5 Glosario */
+  $handler = $view->new_display('page', '2.5 Glosario', 'page');
   $handler->display->display_options['path'] = 'transparencia/informacion-interes/glosario';
   $translatables['glosario'] = array(
     t('Master'),
